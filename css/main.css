@@ -40,36 +40,22 @@ html {
 }
 
 body {
-  position: absolute;
+  
   margin: 0;
   padding: 0;
 }
 a:link,
 a:active {
-    /* it is okay to get rid of the focus rectangle for mouse users but NEVER FOR KEYBOARD USERS. THEY NEED THIS!!!!!!!! */
-    
     outline: none;
-}
-
-.main {
-    text-align: center;
-}
-
-.card {
-    display: block;
-    position: absolute;
-    text-align: center;
 }
 
 h1 {
     size: 30px;
     color: #000000; 
-    max-width: 80%;
 }
 
 p {
     size: 16px;
     color: #000000;
-    max-width: 80%;
 }
     
