@@ -56,21 +56,15 @@ a:active {
     text-align: center;
 }
 
-.icon {
-    padding-top: 1em;
-    width: 250px;
-    margin-bottom: 8em;
-    position:absolute;
-    display: block;
-}
-
 h1 {
     size: 30px;
-    color: #000000;   
+    color: #000000; 
+    max-width: 80%;
 }
 
 p {
     size: 16px;
     color: #000000;
+    max-width: 80%;
 }
     
