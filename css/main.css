@@ -63,7 +63,12 @@ a:active {
 }
 
 h1 {
-    size: 20px;
-    
+    size: 30px;
+    color: #000000;   
+}
+
+p {
+    size: 16px;
+    color: #000000;
 }
     
