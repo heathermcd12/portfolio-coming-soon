@@ -22,6 +22,7 @@ html {
     html {
         font-size:60%;
     }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -29,6 +30,7 @@ html {
     html {
         font-size: 80%;
     }
+
 }
 
 @media only screen and (min-width: 120em) {
@@ -57,12 +59,12 @@ a:active {
     background-color: black;
 }
 
-.paint {
+.intro {
     position: absolute;
     width:90%;
     left: 50%;
     transform: translateX(-50%);
-    height: 100vh;
+    height: 80vh;
     margin-top: 20px;
     margin-bottom: -50px;
     background-image: url(../images/paint_splat.svg);
@@ -72,12 +74,12 @@ a:active {
 .icon {
     position: absolute;
     left: 50%;
-    top: -20vh;
+    top: 5vh;
     transform: translateX(-50%);
     height: 175px;
 }
 
-.intro {
+.text {
     position: absolute;
     text-align: center;
     color: black;
@@ -87,7 +89,7 @@ a:active {
     left: 50%;
     transform: translateX(-50%);
 }
-    
+ 
 .contact-1 {
     position: absolute;
     text-align: center;
