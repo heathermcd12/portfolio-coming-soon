@@ -72,8 +72,9 @@ a:active {
 .icon {
     position: absolute;
     left: 50%;
+    top: -20vh;
     transform: translateX(-50%);
-    height: 200px;
+    height: 175px;
 }
 
 .intro {
