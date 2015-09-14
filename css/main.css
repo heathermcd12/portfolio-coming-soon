@@ -20,21 +20,21 @@ html {
 @media only screen and (min-width: 60em) {
  
     html {
-        font-size:110%;
+        font-size:60%;
     }
 }
 
 @media only screen and (min-width: 90em) {
  
     html {
-        font-size: 120%;
+        font-size: 80%;
     }
 }
 
 @media only screen and (min-width: 120em) {
     
     html {
-        font-size: 130%;
+        font-size: 100%;
     }
 
 }
@@ -70,6 +70,7 @@ a:active {
     position: absolute;
     text-align: center;
     color: #3f5cff;
+    font-size: 30px;
     top: 30%;
     transform: translateY(-70%);
     left: 50%;
