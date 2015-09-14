@@ -59,17 +59,20 @@ a:active {
 
 .paint {
     position: absolute;
-    width:100%;
+    width:90%;
+    left: 50%;
+    transform: translateX(-50%);
     height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 50px;
     background-image: url(../images/paint_splat.svg);
     background-repeat: no-repeat;
 }
 
-
 .intro {
     position: absolute;
     text-align: center;
-    color: #3f5cff;
+    color: black;
     font-size: 30px;
     top: 30%;
     transform: translateY(-70%);
