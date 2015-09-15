@@ -84,7 +84,7 @@ a:active {
     position: absolute;
     left: 50%;
     top: 5vh;
-    -webkit-transform: translateX(-50%);
+    @-webkit-transform: translateX(-50%);
     transform: translateX(-50%);
     height: 175px;
 }
@@ -93,10 +93,10 @@ a:active {
     position: absolute;
     text-align: center;
     top: 35%;
-    -webkit-transform: translateY(-65%);
+    @-webkit-transform: translateY(-65%);
     transform: translateY(-65%);
     left: 50%;
-    -webkit-transform: translateX(-50%);
+    @-webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
