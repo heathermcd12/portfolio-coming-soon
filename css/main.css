@@ -103,6 +103,8 @@ p {
     font-size: 1rem;
 }
 
-.links {
+.link {
     color: #3f5cff;
+    padding: 1.5em;
+    line-height: 2;
 }
