@@ -89,8 +89,8 @@ a:active {
 .text {
     position: absolute;
     text-align: center;
-    top: 30%;
-    transform: translateY(-70%);
+    top: 35%;
+    transform: translateY(-65%);
     left: 50%;
     transform: translateX(-50%);
 }
@@ -103,6 +103,6 @@ p {
     font-size: 1rem;
 }
 
-a {
+.links {
     color: #3f5cff;
 }
