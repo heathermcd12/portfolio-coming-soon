@@ -61,23 +61,11 @@ a:active {
     outline: none;
 }
 
-.twilight {
-    position: absolute;
+body {
     width:100%;
     height: 100vh;
     background-image: url(../images/twilight.svg);
-    background-color: black;
-}
-
-.intro {
-    position: absolute;
-    text-align: center;
-    width:100%;
-    height: 80vh;
-    margin-top: 20px;
-    background-image: url(../images/paint_splat.svg);
-    background-repeat: no-repeat;
-    background-position: center;
+	background-color: black;
 }
 
 .icon {
@@ -86,30 +74,51 @@ a:active {
     top: 5vh;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
-    height: 175px;
+    height: 180px;
+	padding-bottom: 1em;
 }
 
-.text {
-    position: absolute;
-    text-align: center;
-    top: 35%;
-    -webkit-transform: translateY(-65%);
-    transform: translateY(-65%);
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    transform: translateX(-50%);
+.blob { 
+	visibility: hidden;
 }
 
-h1 {
-    color: black;
-}
-
-p {
-    font-size: 1rem;
+.talk {
+	position: absolute;
+    width: 100%;
+    top: 33vh;
+	text-align: center;
+	z-index: 999999;
+    right: 0;
+	padding-bottom: 2em;
+	padding-top: 2em;
+	background-image: url(../images/placeholder.svg);
+	background-repeat:no-repeat center center;
+	background-size: cover;
+	margin-top: 1em;
+	font-size: 14pt;
 }
 
 .link {
+    text-decoration: none;
     color: #3f5cff;
-    padding: 1.5em;
-    line-height: 2;
 }
+
+@media only screen and (min-width: 30em) {
+ 
+.blob { 
+	visibility: visible;
+    text-align: center;
+    width:100%;
+    height: 80vh;
+    margin-top: 20px;
+}
+	
+.talk { 
+	 background:transparent;
+	 top: 30vh;
+	 font-size: 12pt;
+	}
+}
+
+
+
